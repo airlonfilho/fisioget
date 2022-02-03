@@ -1,0 +1,160 @@
+.content {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    background-color: #795199;
+}
+
+.contentText {
+    position: absolute;
+    display: flex;
+    align-items: flex-start;
+    margin-top: -200px;
+    padding-left: 100px;
+}
+
+.fundoCombo {
+    position: relative;
+    margin-top: -28px;
+}
+
+.fundoCombo img {
+    transform: rotate(-2.5deg); 
+}
+
+.content:last-child {
+    background-color: #795199;
+    margin-top: 0px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.infos {
+    max-width: 500px;
+    padding-right: 150px;
+}
+
+.infos p {
+    font-size: 36px;
+    color: #572580;
+    line-height: 42px;
+}
+
+.infos p:last-child {
+    max-width: 350px;
+    font-size: 12px;
+    line-height: 16px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.infos span {
+    color: #F6E71C;
+}
+
+.image img {
+    max-width: 400px;
+}
+
+button {
+    background-color: #F6E71C;
+    color: #572580;
+    border: none;
+    border-radius: 30px;
+    padding: 15px 60px;
+    font-size: 14px;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+.item {
+    max-width: 400px;
+    color: white;
+}
+
+.item img {
+    width: 50px;
+    margin-bottom: 10px;
+}
+
+.title {
+    font-size: 28px;
+}
+
+.subtitle {
+    font-size: 22px;
+    margin-top: 20px;
+    line-height: 32px;
+}
+
+@media only screen and (max-width: 720px) {
+    .content {
+        display: block;
+    }
+
+    .infos p {
+        margin: 0px 30px;
+        font-size: 22px;
+        line-height: 28px;
+        margin-top: 20px;
+    }
+
+    .infos {
+        padding-right: 0px;
+    }
+
+    .infos p:last-child {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        max-width: 100%;
+        font-size: 12px;
+        line-height: 16px;
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    .button {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .button button{
+        max-width: 400px;
+    }
+
+    .image {
+        text-align: center;
+        margin-top: 20px;
+    }
+    .image img {
+        max-width: 350px;
+    }
+
+    .item {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .item:last-child {
+        margin-top: 20px;
+    }
+
+    .fundoCombo {
+        display: none;
+    }
+
+    .contentText {
+        background-color: #FFFEF0;
+        position: relative;
+        padding-left: 0px;
+        display: block;
+        padding-top: 20px;
+        border: none;
+        padding-bottom: 40px;
+        margin-top: -10px;
+    }
+
+}

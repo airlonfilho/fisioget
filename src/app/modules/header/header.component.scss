@@ -1,0 +1,175 @@
+header{
+    background-color: #572580;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.fundoLogo {
+    float: left;
+    position: relative;
+    left: 0;
+    top: 0;
+    margin-left: -5px;
+    margin-top: -5px;
+}
+
+.navLogo {
+    position: absolute;
+    z-index: 999;
+    margin-left: 4%;
+    margin-top: 1.5%;
+}
+
+.nav-rigth {
+    margin-right: 2%;
+    margin-top: 3%;
+    display: flex;
+    align-items: center;
+}
+
+.nav-rigth button {
+    background-color: #572580;
+    color: white;
+    border: 1px solid white;
+    border-radius: 30px;
+    padding: 10px 30px;
+    font-size: 16px;
+}
+
+.sociais img {
+    margin-left: 10px;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.title span {
+    color: #F6E71C;
+    font-size: 32px;
+}
+
+.title p {
+    width: 550px;
+    font-size: 30px;
+    color: white;
+    line-height: 36px;
+    text-align: center;
+}
+
+.subTitle {
+    display: flex;
+    justify-content: center;
+    margin-top: 48px;
+    text-align: center;
+}
+
+.subTitle p {
+    font-size: 22px;
+    color: white;
+}
+
+.smallTitle {
+    display: flex;
+    justify-content: center;
+    margin-top: 24px;
+}
+
+.smallTitle p {
+    color: white;
+    font-size: 14px;
+    width: 500px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.actionButton {
+    display: flex;
+    justify-content: center;
+    margin-top: 24px;
+}
+
+.buttonAction {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: none;
+    border-radius: 60px;
+    width: 400px;
+    height: 50px;
+}
+
+.buttonAction p {
+    font-size: 18px;
+    margin-left: 60px;
+    color: #572580;;
+}
+
+.share {
+    height: 50px;
+    width: 50px;
+    background-color: #F6E71C;
+    color: #572580;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0 60px 60px 0;
+}
+
+.share img {
+    width: 20px;
+}
+
+.backgroundHeader {
+    display: flex;
+    justify-content: end;
+}
+
+.backgroundHeader img {
+    width: 80%;
+}
+
+.fundoLogoMobile {
+    display: none;
+}
+
+
+@media only screen and (max-width: 720px) {
+
+    .backgroundHeader {
+        display: none;
+    }
+
+    .nav {
+        justify-content: space-between;
+        
+    }
+
+    .navLogo img {
+        margin-left: 110px;
+        width: 55%;
+    }
+
+    .nav-rigth {
+        display: none;
+    }
+    
+    .smallTitle {
+        margin: 20px 10px;
+    }
+
+    .actionButton {
+        margin: 20px 20px;
+    }
+
+    .fundoLogo {
+        margin-top: -80px;
+    }
+
+}
